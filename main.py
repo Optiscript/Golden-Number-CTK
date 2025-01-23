@@ -11,6 +11,7 @@ class GoldenRatioApp:
         # Set up the root window
         self.root = root
         self.root.title("Golden Ratio")
+        self.root.resizable(False, False)
         self.make_app_widgets()
 
     def make_app_widgets(self):
